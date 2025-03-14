@@ -1,31 +1,36 @@
 # Recipe Finder
 
-Recipe Finder es una aplicación web construida con Next.js que permite a los usuarios buscar recetas de comida utilizando la API de Spoonacular. Puedes buscar recetas por nombre, filtrar por tipo de cocina o tiempo máximo de preparación, y ver detalles como ingredientes y resúmenes de cada receta.
+Recipe Finder is a web application built with Next.js that allows users to search for food recipes using the Spoonacular API. You can search for recipes by name, filter by cuisine type or maximum preparation time, and view details such as ingredients and summaries for each recipe.
 
-## Capturas de pantalla
+## Screenshots
 
-Aquí tienes algunas capturas de pantalla de la aplicación en acción:
+Here are some screenshots of the application in action:
 
-- **Página de inicio**:  
-  ![Página de inicio](screenshots/home.png)
-- **Lista de recetas**:  
-  ![Lista de recetas](screenshots/recipes.png)
-- **Detalles de la receta**:  
-  ![Detalles de la receta](screenshots/recipe-details.png)
+- **Home Page**:  
+ ![image](https://github.com/user-attachments/assets/a964a699-a141-42f5-8b60-0bbc97b5c703)
 
-## Requisitos previos
+- **Recipe List**:  
+  ![image](https://github.com/user-attachments/assets/318cd6d0-bc0a-4d88-bd76-4b87e85dec0f)
 
-Antes de ejecutar la aplicación, necesitas lo siguiente:
+- **Recipe Details**:  
+  ![image](https://github.com/user-attachments/assets/968eaa7b-ef7b-483f-b9a9-53ad79f9efbd)
 
-- [Node.js](https://nodejs.org/) (versión 18 o superior)
-- [npm](https://www.npmjs.com/) (viene con Node.js)
-- Una [API key de Spoonacular](https://spoonacular.com/food-api) (regístrate para obtener una gratis)
 
-## Instalación
+## Prerequisites
 
-Sigue estos pasos para instalar la aplicación:
+Before running the application, you need the following:
 
-1. Clona el repositorio desde GitHub:
+-Node.js (version 18 or higher)
+-npm (comes with Node.js)
+-A Spoonacular API key (sign up to get a free one) 
+For the API key, create a .env.local file and paste this variable :  SPOONACULAR_API_KEY={** your api key here **}
+
+
+
+Installation
+Follow these steps to install the application:
+
+Clone the repository from GitHub:
 
    ```bash
    git clone https://github.com/tu-usuario/recipe-finder.git
